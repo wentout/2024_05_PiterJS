@@ -1,0 +1,7 @@
+-----
+
+<Box>
+<center>
+<img src="./content/qrcode.png"  style={{paddingTop: '3vh', width: '47vw'}} />
+</center>
+</Box>

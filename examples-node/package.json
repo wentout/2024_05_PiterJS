@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "mnemonica": "^0.9.981",
+    "ts-node": "^10.9.2",
+    "typeomatica": "^0.3.34"
+  }
+}

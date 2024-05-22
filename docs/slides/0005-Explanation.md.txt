@@ -1,0 +1,268 @@
+
+-----
+
+<h1 style={{fontSize:'15vh', color: 'orange'}}>... episodes ...</h1>
+
+<h1 className="borderline">Ø</h1>
+
+
+-----
+
+<Box sx={{marginTop: '25vh'}}>
+<center>
+<h1 style={{fontSize: '7vh', color: 'green'}}>если вы смотрите на код</h1>
+</center>
+</Box>
+
+-----
+
+<Box sx={{marginTop: '25vh'}}>
+<center>
+<h1 style={{fontSize: '7vh', color: 'green'}}>если вы смотрите на код</h1>
+<h1 style={{fontSize: '8vh', color: 'orange'}}>очень долгое время</h1>
+</center>
+</Box>
+
+-----
+
+<Box sx={{marginTop: '25vh'}}>
+<center>
+	<h1 style={{fontSize: '7vh', color: 'green'}}>если вы смотрите на код</h1>
+	<h1 style={{fontSize: '8vh', color: 'orange'}}>очень долгое время</h1>
+	<h1 style={{fontSize: '9vh', color: 'cyan'}}>код начинает смотреть на вас</h1>
+</center>
+</Box>
+
+-----
+
+# вспомним про эти два слайда
+
+<Box>
+<center>
+<img src="./content/img/poly_struct.svg"  style={{width: '70vw'}} />
+</center>
+</Box>
+
+
+-----
+
+# вспомним про эти два слайда
+
+<Box>
+<center>
+<img src="./content/img/poly_red.svg"  style={{width: '70vw'}} />
+</center>
+</Box>
+
+-----
+
+# вспомним про эти два слайда
+
+<Box>
+<center>
+<img src="./content/img/poly_struct.svg"  style={{width: '70vw'}} />
+</center>
+</Box>
+
+-----
+
+<Box sx={{marginTop: '25vh'}}>
+<center>
+<h1 style={{fontSize: '15vh', color: 'cyan'}}> что там насчёт <br/> Строгой Типизаци ? </h1>
+</center>
+</Box>
+
+-----
+
+# если в JS всё объекты
+
+<Box>
+<center>
+<img src="./content/img/JS_Object_Topology.svg"  style={{width: '70vw'}} />
+</center>
+</Box>
+
+-----
+
+<Box sx={{marginTop: '25vh'}}>
+<center>
+<h1 style={{fontSize: '15vh', color: 'cyan'}}> могут ли помочь <br/> их конструкторы ? </h1>
+</center>
+</Box>
+
+-----
+
+# вот есть Class
+
+```javascript className=codehugeshift
+
+class TheClass {};
+
+debugger;
+
+const instance = new TheClass;
+
+debugger;
+
+```
+
+<Button onClick={() => { runExample('02_01_SimpleClass')}}>Run Me</Button>
+
+-----
+
+# и Extended Class
+
+```javascript className=codehugeshift
+
+class BaseClass {};
+
+class TheClass extends BaseClass{};
+
+debugger;
+
+const instance = new TheClass;
+
+debugger;
+
+```
+
+<Button onClick={() => { runExample('02_02_ExtendedClass')}}>Run Me</Button>
+
+-----
+
+# и это старьё над Singleton'ами
+
+```javascript className=codehugeshift
+
+const SingletonWrapper = function () { };
+
+SingletonWrapper.prototype =
+		Object.create( jQuery ); // ← !
+
+SingletonWrapper.prototype
+	.constructor = SingletonWrapper;
+
+const instance = new SingletonWrapper;
+
+```
+
+<Button onClick={() => { runExample('03_SingletonWrapper')}}>Run Me</Button>
+
+-----
+
+# но что если смешать одно с другим ?
+
+```javascript className=codehugeshift
+
+const MonotonicWrapper = function () { };
+
+MonotonicWrapper.prototype.someValue = 123;
+
+class MyClass extends MonotonicWrapper { };
+
+// reference MonotonicWrapper.prototype
+const instance1 = new MyClass;
+const instance2 = new MyClass;
+
+```
+
+<Button onClick={() => { runExample('04_MonotonicWrapper')}}>Run Me</Button>
+
+
+-----
+
+# и подменить Prototype Chain на Proxy ...
+
+<div className='codesmall'>
+
+```javascript
+const PrototypeChain = [{a:1}, {b:2}, {c:3}];
+const MyConstructor = function () {};
+const accessorProxy = new Proxy(MyConstructor.prototype, {
+	get (target, prop, receiver) {
+		let result;
+		PrototypeChain.reverse().forEach(current => {
+			if (result === undefined) {
+				result = Reflect.get(current, prop);
+			}
+		});
+		return result;
+	}
+});
+Reflect.setPrototypeOf(MyConstructor.prototype, accessorProxy);
+const myObject = new MyConstructor;
+
+```
+</div>
+
+<Button onClick={() => { runExample('12_ProtoReplacement')}}>Run Me</Button>
+
+-----
+
+# строгая типизация на замене прототипа
+
+<div className='codesmall'>
+
+```typescript
+import { BaseClass } from 'typeomatica';
+
+// ну да, мы здесь типа
+// импортировали какой-то левый BaseClass
+// из какой-то левой библиотеки на npm
+
+class Strict extends BaseClass {
+	someProp: number;
+	constructor() {
+		super();
+		this.someProp = 321;
+		decoratedSomeProp = this.someProp;
+	}
+}
+
+```
+</div>
+
+-----
+
+<Box sx={{marginTop: '35vh'}}>
+<center>
+<h1 style={{fontSize: '21vh', color: 'gray'}}> D E M O </h1>
+</center>
+</Box>
+
+-----
+
+-----
+
+# строгая типизация с декоратором
+
+<div className='codesmall'>
+
+```typescript
+import { Strict } from 'typeomatica';
+// та же дичь с импортом из ниоткуда
+
+@Strict()
+BaseClass {}
+
+class Strict extends BaseClass {
+	someProp: number;
+	constructor() {
+		super();
+		this.someProp = 321;
+		decoratedSomeProp = this.someProp;
+	}
+}
+
+```
+</div>
+
+-----
+
+<Box sx={{marginTop: '35vh'}}>
+<center>
+<h1 style={{fontSize: '21vh', color: 'gray'}}> D E M O </h1>
+</center>
+</Box>
+
+-----

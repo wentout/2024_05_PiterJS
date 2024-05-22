@@ -1,0 +1,109 @@
+
+-----
+
+-----
+
+<h1 style={{fontSize:'25vh', color: 'orange'}}>Thank You</h1>
+
+<h1 className="borderline">ø</h1>
+
+
+-----
+
+<Box sx={{marginTop: '10vh'}}>
+<center>
+<h1 style={{color:'orange'}}>fin</h1>
+
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+<h1 style={{fontSize:'20vh'}}>  → </h1>
+
+
+</center>
+</Box>
+
+-----
+
+-----
+
+
+<Box sx={{marginTop: '10vh'}}>
+<center>
+
+# the team !
+
+<img src="./content/img/team.jpg" style={{width: '55vw'}} />
+
+</center>
+</Box>
+
+
+-----
+
+
+<Box>
+<center>
+
+<h1 style={{fontSize: '12vh', color:'orange'}}>links</h1>
+
+<table>
+<tbody>
+<tr>
+
+<td>
+
+<img src="./content/qrcode.png"  style={{marginRight: '5vw', width: '27vw'}} />
+
+</td>
+
+<td>
+
+# https://twitter.com/went_out
+
+<br/>
+
+# https://github.com/wentout/mnemonica
+
+<br/>
+
+# https://github.com/wentout/typeomatica
+
+</td>
+
+</tr>
+</tbody>
+</table>
+
+
+</center>
+</Box>
+
+
+-----
+
+
+-----
+
+
+-----
+
+<Box sx={{marginTop: '10vh'}}>
+<center>
+<h1 style={{color:'orange'}}>Why Mnemonica?</h1>
+
+<img src="./content/img/mnemonica_book.jpg" style={{width: '55vw'}} />
+
+</center>
+</Box>
+
+-----
+
+-----
+
+
+

@@ -1,0 +1,206 @@
+
+
+
+-----
+
+<h1 style={{fontSize:'15vh', color: 'orange'}}>Что есть Ещё</h1>
+
+<h1 className="borderline" style={{margin: '42vh 7vw 0 0'}}>*</h1>
+
+-----
+
+# так выглядит код этой презентации
+
+<Chart id='chart' opts={{
+	chart : {
+		type : 'tree',
+		dy : 18,
+		dx : 50,
+		width : 320,
+		margin : {
+			top: 25,
+			bottom: 10,
+			right: 20,
+			left: 70
+		},
+	}
+}} />
+
+
+-----
+
+# вот прям так он определён
+
+<div className='codemedium'>
+
+```javascript
+
+import { Slide, MDX 
+  /*...*/ } from './components';
+
+const Runner = define(Main);
+
+const SlideRoot = Runner.define( Slide );
+
+const SlideMDX = SlideRoot.define( MDX );
+SlideMDX.define(Progressor);
+SlideMDX.define(Footer);
+// ... Starter, Title
+```
+</div>
+
+-----
+
+# это даёт жизненный цикл : Time Line
+
+<div className="timelineText2">
+
+# &mdash; &mdash; <span style={{color:'orange'}}>Time</span> &mdash; &mdash; <span style={{color:'green'}}>|</span> &mdash; &mdash; &mdash; &mdash; <span style={{color:'green'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'green'}}>|</span> &mdash; &mdash; &mdash; &mdash;  <span style={{color:'orange'}}>Line</span> &mdash; &mdash; <span style={{color:'orange'}}>&gt;</span>
+
+</div>
+
+<div className="timelineTextBlack2">
+
+# &mdash; &mdash; <span>Time</span> &mdash; &mdash; <span style={{color:'green'}}>|</span> &mdash; &mdash; &mdash; &mdash; <span style={{color:'green'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'green'}}>|</span> &mdash; &mdash; &mdash; &mdash;  <span>Line</span> &mdash; &mdash; <span>&gt;</span>
+
+# &mdash; &mdash; <span>Time</span> &mdash; &mdash; <span style={{color:'green'}}>|</span> &mdash; &mdash; &mdash; &mdash; <span style={{color:'green'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'green'}}>|</span> &mdash; &mdash; &mdash; &mdash;  <span>Line</span> &mdash; &mdash; <span>&gt;</span>
+
+# &mdash; &mdash; <span>Time</span> &mdash; &mdash; <span style={{color:'green'}}>|</span> &mdash; &mdash; &mdash; &mdash; <span style={{color:'green'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'green'}}>|</span> &mdash; &mdash; &mdash; &mdash;  <span>Line</span> &mdash; &mdash; <span>&gt;</span>
+
+# &mdash; &mdash; <span>Time</span> &mdash; &mdash; <span style={{color:'green'}}>|</span> &mdash; &mdash; &mdash; &mdash; <span style={{color:'green'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'green'}}>|</span> &mdash; &mdash; &mdash; &mdash;  <span>Line</span> &mdash; &mdash; <span>&gt;</span>
+
+# &mdash; &mdash; <span>Time</span> &mdash; &mdash; <span style={{color:'green'}}>|</span> &mdash; &mdash; &mdash; &mdash; <span style={{color:'green'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'green'}}>|</span> &mdash; &mdash; &mdash; &mdash;  <span>Line</span> &mdash; &mdash; <span>&gt;</span>
+
+# &mdash; &mdash; <span>Time</span> &mdash; &mdash; <span style={{color:'green'}}>|</span> &mdash; &mdash; &mdash; &mdash; <span style={{color:'green'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'green'}}>|</span> &mdash; &mdash; &mdash; &mdash;  <span>Line</span> &mdash; &mdash; <span>&gt;</span>
+
+# &mdash; &mdash; <span>Time</span> &mdash; &mdash; <span style={{color:'green'}}>|</span> &mdash; &mdash; &mdash; &mdash; <span style={{color:'green'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'green'}}>|</span> &mdash; &mdash; &mdash; &mdash;  <span>Line</span> &mdash; &mdash; <span>&gt;</span>
+
+# &mdash; &mdash; <span>Time</span> &mdash; &mdash; <span style={{color:'green'}}>|</span> &mdash; &mdash; &mdash; &mdash; <span style={{color:'green'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'green'}}>|</span> &mdash; &mdash; &mdash; &mdash;  <span>Line</span> &mdash; &mdash; <span>&gt;</span>
+
+# &mdash; &mdash; <span>Time</span> &mdash; &mdash; <span style={{color:'green'}}>|</span> &mdash; &mdash; &mdash; &mdash; <span style={{color:'green'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'green'}}>|</span> &mdash; &mdash; &mdash; &mdash;  <span>Line</span> &mdash; &mdash; <span>&gt;</span>
+
+# &mdash; &mdash; <span>Time</span> &mdash; &mdash; <span style={{color:'green'}}>|</span> &mdash; &mdash; &mdash; &mdash; <span style={{color:'green'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'green'}}>|</span> &mdash; &mdash; &mdash; &mdash;  <span>Line</span> &mdash; &mdash; <span>&gt;</span>
+
+# &mdash; &mdash; <span>Time</span> &mdash; &mdash; <span style={{color:'green'}}>|</span> &mdash; &mdash; &mdash; &mdash; <span style={{color:'green'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'green'}}>|</span> &mdash; &mdash; &mdash; &mdash;  <span>Line</span> &mdash; &mdash; <span>&gt;</span>
+
+# &mdash; &mdash; <span>Time</span> &mdash; &mdash; <span style={{color:'green'}}>|</span> &mdash; &mdash; &mdash; &mdash; <span style={{color:'green'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'green'}}>|</span> &mdash; &mdash; &mdash; &mdash;  <span>Line</span> &mdash; &mdash; <span>&gt;</span>
+
+</div>
+
+<Chart id='chartAbs2' opts={{
+	chart : {
+		type : 'tree',
+		dy : 20,
+		dx : 59,
+		width : 320,
+		margin : {
+			top: 30,
+			bottom: 10,
+			right: 20,
+			left: 50
+		},
+	}
+}} />
+
+-----
+
+
+# и тоже создано оно при помощи такого кода 
+
+```javascript className=codehugeshift
+
+const SingletonWrapper = function () { };
+
+SingletonWrapper.prototype =
+		Object.create( jQuery ); // ← !
+
+SingletonWrapper.prototype
+	.constructor = SingletonWrapper;
+
+const instance = new SingletonWrapper;
+
+```
+
+<Button onClick={() => { runExample('03_SingletonWrapper')}}>Run Me</Button>
+
+
+-----
+
+<Box sx={{marginTop: '35vh'}}>
+<center>
+<h1 style={{fontSize: '12vh', color: 'gray'}}> ... </h1>
+</center>
+</Box>
+
+-----
+
+<Box sx={{marginTop: '35vh'}}>
+<center>
+<h1 style={{fontSize: '12vh', color: 'cyan'}}> ... код на React ... </h1>
+</center>
+</Box>
+
+-----
+
+<Box sx={{marginTop: '35vh'}}>
+<center>
+<h1 style={{fontSize: '11vh', color: 'cyan'}}> ... код на React ... </h1>
+<h1 style={{fontSize: '9vh', color: 'cyan'}}> из другой презентации </h1>
+</center>
+</Box>
+
+
+-----
+[{"errorMode":1}]
+
+<h2>
+ выберем нужный контекст из миллиона
+ 
+ 
+ -----
+
+<Box sx={{marginTop: '35vh'}}>
+<center>
+<h1 style={{fontSize: '15vh', color: 'cyan'}}> ... но ... </h1>
+</center>
+</Box>
+
+
+-----
+[{"errorMode":2}]
+
+<h2>
+ выберем нужный контекст из миллиона
+
+
+-----
+
+# цепочка безответственности: эта презентация
+
+<div className='codesmall'>
+```typescript
+import { decorate, apply }from '..';
+
+@decorate()
+class MyDecoratedClass {
+	field: number;
+	constructor () {
+		this.field = 123;
+	}
+}
+
+@decorate(MyDecoratedClass)
+class MyDecoratedSubClass { ... }
+
+```
+</div>
+
+-----
+
+<Box sx={{marginTop: '35vh'}}>
+<center>
+<h1 style={{fontSize: '21vh', color: 'gray'}}> D.E.M.O </h1>
+</center>
+</Box>
+
+-----

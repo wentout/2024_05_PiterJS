@@ -1,0 +1,65 @@
+
+-----
+
+<Box>
+<center>
+
+<table>
+<tbody>
+<tr>
+
+<td>
+
+<img src="./content/img/piter.js.logo.svg"  style={{marginTop: '5vh', width: '19vw', background: 'white'}} />
+
+</td>
+
+<td>
+
+<img src="./content/img/MoscowJS_logo.png"  style={{marginTop: '5vh', width: '19vw', background: 'white'}} />
+
+</td>
+
+<td>
+
+<img src="./content/img/Node.js.SPb.jpg" style={{marginTop: '5vh', width: '19vw'}} />
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<img src="./content/ufostation.jpg" style={{marginTop: '5vh', width: '19vw'}} />
+
+</td>
+
+<td>
+
+<img src="./content/FrontEndOnDon.jpg" style={{marginTop: '5vh', width: '19vw'}} />
+
+</td>
+
+<td>
+
+<img src="./content/ChillHouse.jpg" style={{marginTop: '5vh', width: '19vw'}} />
+
+</td>
+
+</tr>
+</tbody>
+</table>
+
+</center>
+</Box>
+
+
+-----
+
+<Box sx={{textAlign: 'center'}}>
+<img src="./content/RND.JS.png" style={{marginTop: '5vh', width: '45vw'}} />
+</Box>
+
+-----
