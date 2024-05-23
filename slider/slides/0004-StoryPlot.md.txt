@@ -78,7 +78,7 @@
 
 <Box sx={{marginTop: '7vh'}}>
 <center>
-	<h1 style={{fontSize: '7vh', color: 'green'}}>Как много тут JavaScript'изеров ?</h1>
+	<h1 style={{fontSize: '7vh', color: 'green'}}>Как много тут JavaScript'изёров ?</h1>
 </center>
 </Box>
 
@@ -87,7 +87,7 @@
 
 <Box sx={{marginTop: '7vh'}}>
 <center>
-	<h1 style={{fontSize: '7vh', color: 'green'}}>Как много тут JavaScript'изеров ?</h1>
+	<h1 style={{fontSize: '7vh', color: 'green'}}>Как много тут JavaScript'изёров ?</h1>
 	<h1 style={{fontSize: '8vh', color: 'orange'}}>Сколько нас пишет на JavaScript ?</h1>
 </center>
 </Box>
@@ -97,7 +97,7 @@
 
 <Box sx={{marginTop: '7vh'}}>
 <center>
-	<h1 style={{fontSize: '7vh', color: 'green'}}>Как много тут JavaScript'изеров ?</h1>
+	<h1 style={{fontSize: '7vh', color: 'green'}}>Как много тут JavaScript'изёров ?</h1>
 	<h1 style={{fontSize: '8vh', color: 'orange'}}>Сколько нас пишет на JavaScript ?</h1>
 	<h1 style={{fontSize: '9vh', color: 'cyan'}}>А кто считает, что пишет сам<br/> JavaScript ?</h1>
 </center>

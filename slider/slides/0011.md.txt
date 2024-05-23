@@ -1,36 +1,12 @@
 
 -----
 
------
-
-<h1 style={{fontSize:'25vh', color: 'orange'}}>Thank You</h1>
+<h1 style={{fontSize:'25vh', color: 'orange'}}>спасиб</h1>
 
 <h1 className="borderline">ø</h1>
 
 
 -----
-
-<Box sx={{marginTop: '10vh'}}>
-<center>
-<h1 style={{color:'orange'}}>fin</h1>
-
-
-<br/>
-<br/>
-<br/>
-<br/>
-
-
-<h1 style={{fontSize:'20vh'}}>  → </h1>
-
-
-</center>
-</Box>
-
------
-
------
-
 
 <Box sx={{marginTop: '10vh'}}>
 <center>
@@ -84,11 +60,20 @@
 </Box>
 
 
------
-
 
 -----
+<Box sx={{marginTop: '15vh'}}>
+<center>
+<h1 style={{fontSize: '11vh', color:'orange'}}>f i n</h1>
+<h1 style={{fontSize:'20vh', lineHeight: '5vh'}}> ↑ </h1>
 
+
+</center>
+</Box>
+
+-----
+
+-----
 
 -----
 

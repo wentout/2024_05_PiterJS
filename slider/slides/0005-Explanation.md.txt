@@ -10,7 +10,7 @@
 
 <Box sx={{marginTop: '25vh'}}>
 <center>
-<h1 style={{fontSize: '7vh', color: 'green'}}>если вы смотрите на код</h1>
+	<h1 style={{fontSize: '7vh', color: 'teal', lineHeight: '5vh'}}>если очень долго</h1>
 </center>
 </Box>
 
@@ -18,8 +18,8 @@
 
 <Box sx={{marginTop: '25vh'}}>
 <center>
-<h1 style={{fontSize: '7vh', color: 'green'}}>если вы смотрите на код</h1>
-<h1 style={{fontSize: '8vh', color: 'orange'}}>очень долгое время</h1>
+	<h1 style={{fontSize: '7vh', color: 'teal', lineHeight: '5vh'}}>если очень долго</h1>
+	<h1 style={{fontSize: '8vh', color: 'orange', lineHeight: '5vh'}}>смотреть код</h1>
 </center>
 </Box>
 
@@ -27,9 +27,9 @@
 
 <Box sx={{marginTop: '25vh'}}>
 <center>
-	<h1 style={{fontSize: '7vh', color: 'green'}}>если вы смотрите на код</h1>
-	<h1 style={{fontSize: '8vh', color: 'orange'}}>очень долгое время</h1>
-	<h1 style={{fontSize: '9vh', color: 'cyan'}}>код начинает смотреть на вас</h1>
+	<h1 style={{fontSize: '7vh', color: 'teal', lineHeight: '5vh'}}>если очень долго</h1>
+	<h1 style={{fontSize: '8vh', color: 'orange', lineHeight: '5vh'}}>смотреть код</h1>
+	<h1 style={{fontSize: '9vh', color: 'crimson', lineHeight: '5vh'}}>код станет смотреть тебя</h1>
 </center>
 </Box>
 
@@ -64,11 +64,22 @@
 </center>
 </Box>
 
+
+-----
+
+# вспомним про эти два слайда
+
+<Box>
+<center>
+<img src="./content/img/poly_red.svg"  style={{width: '70vw'}} />
+</center>
+</Box>
+
 -----
 
 <Box sx={{marginTop: '25vh'}}>
 <center>
-<h1 style={{fontSize: '15vh', color: 'cyan'}}> что там насчёт <br/> Строгой Типизаци ? </h1>
+<h1 style={{fontSize: '15vh', color: 'teal'}}> что там насчёт <br/> Строгой Типизаци ? </h1>
 </center>
 </Box>
 
@@ -86,7 +97,7 @@
 
 <Box sx={{marginTop: '25vh'}}>
 <center>
-<h1 style={{fontSize: '15vh', color: 'cyan'}}> могут ли помочь <br/> их конструкторы ? </h1>
+<h1 style={{fontSize: '15vh', color: 'teal'}}> могут ли помочь <br/> их конструкторы ? </h1>
 </center>
 </Box>
 

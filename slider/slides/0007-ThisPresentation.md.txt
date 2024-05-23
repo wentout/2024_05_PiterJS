@@ -134,9 +134,18 @@ const instance = new SingletonWrapper;
 
 -----
 
-<Box sx={{marginTop: '35vh'}}>
+<Box sx={{marginTop: '25vh'}}>
 <center>
-<h1 style={{fontSize: '12vh', color: 'cyan'}}> ... код на React ... </h1>
+<h1 style={{fontSize: '12vh', color: 'orange'}}> ... код на React ... </h1>
+</center>
+</Box>
+
+-----
+
+<Box sx={{marginTop: '25vh'}}>
+<center>
+<h1 style={{fontSize: '10vh', color: 'orange'}}> ... код на React ... </h1>
+<h1 style={{fontSize: '10vh', color: 'teal'}}> и из другой презентации </h1>
 </center>
 </Box>
 
@@ -144,24 +153,7 @@ const instance = new SingletonWrapper;
 
 <Box sx={{marginTop: '35vh'}}>
 <center>
-<h1 style={{fontSize: '11vh', color: 'cyan'}}> ... код на React ... </h1>
-<h1 style={{fontSize: '9vh', color: 'cyan'}}> из другой презентации </h1>
-</center>
-</Box>
-
-
------
-[{"errorMode":1}]
-
-<h2>
- выберем нужный контекст из миллиона
- 
- 
- -----
-
-<Box sx={{marginTop: '35vh'}}>
-<center>
-<h1 style={{fontSize: '15vh', color: 'cyan'}}> ... но ... </h1>
+<h1 style={{fontSize: '15vh', color: 'teal'}}> ... но ... </h1>
 </center>
 </Box>
 
@@ -172,10 +164,9 @@ const instance = new SingletonWrapper;
 <h2>
  выберем нужный контекст из миллиона
 
-
 -----
 
-# цепочка безответственности: эта презентация
+# цепочка безответственности и эта презентация
 
 <div className='codesmall'>
 ```typescript
