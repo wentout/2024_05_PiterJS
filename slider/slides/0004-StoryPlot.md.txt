@@ -3,7 +3,7 @@
 
 <Box sx={{marginTop: '5vh'}}>
 <center>
-<h1 style={{fontSize: '11vh', color: 'cyan'}}>... но есть ожидание  ...</h1>
+<h1 style={{fontSize: '11vh', color: 'aqua'}}>... но есть ожидание  ...</h1>
 </center>
 </Box>
 
@@ -13,8 +13,8 @@
 
 <Box sx={{marginTop: '5vh'}}>
 <center>
-<h1 style={{fontSize: '11vh', color: 'cyan'}}>... но есть ожидание  ...</h1>
-<h1 style={{fontSize: '9vh', color: 'cyan'}}>что можно показать снова</h1>
+<h1 style={{fontSize: '11vh', color: 'aqua'}}>... но есть ожидание  ...</h1>
+<h1 style={{fontSize: '9vh', color: 'teal'}}>что можно показать снова</h1>
 </center>
 </Box>
 
@@ -24,7 +24,7 @@
 
 <Box sx={{marginTop: '5vh'}}>
 <center>
-<h1 style={{fontSize: '11vh', color: 'cyan'}}>... но есть ожидание  ...</h1>
+<h1 style={{fontSize: '11vh', color: 'teal'}}>... но есть ожидание  ...</h1>
 </center>
 </Box>
 
@@ -34,7 +34,7 @@
 
 <Box sx={{marginTop: '35vh'}}>
 <center>
-<h1 style={{fontSize: '15vh', color: 'cyan'}}> почему ? </h1>
+<h1 style={{fontSize: '15vh', color: 'darkslateblue'}}> почему ? </h1>
 </center>
 </Box>
 
@@ -66,7 +66,7 @@
 
 <Box sx={{marginTop: '35vh'}}>
 <center>
-<h1 style={{fontSize: '11vh', color: 'cyan'}}>... snowflakes ...</h1>
+<h1 style={{fontSize: '11vh', color: 'orange'}}>... snowflakes ...</h1>
 </center>
 </Box>
 
@@ -99,7 +99,7 @@
 <center>
 	<h1 style={{fontSize: '7vh', color: 'green'}}>Как много тут JavaScript'изёров ?</h1>
 	<h1 style={{fontSize: '8vh', color: 'orange'}}>Сколько нас пишет на JavaScript ?</h1>
-	<h1 style={{fontSize: '9vh', color: 'cyan'}}>А кто считает, что пишет сам<br/> JavaScript ?</h1>
+	<h1 style={{fontSize: '9vh', color: 'teal'}}>А кто считает, что пишет<br/> сам JavaScript ?</h1>
 </center>
 </Box>
 
