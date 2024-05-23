@@ -33,17 +33,18 @@ setTimeout(() => {
 
 	debugger;
 
-	console.log(myDecoratedInstance instanceof MyDecoratedClass);
+	console.log('myDecoratedInstance instanceof MyDecoratedClass       : ', myDecoratedInstance instanceof MyDecoratedClass);
 
 	debugger;
 
-	console.log(myDecoratedSubInstance instanceof MyDecoratedClass);
-	console.log(myDecoratedSubInstance instanceof MyDecoratedSubClass);
+	console.log('myDecoratedSubInstance instanceof MyDecoratedClass    : ', myDecoratedSubInstance instanceof MyDecoratedClass);
+	console.log('myDecoratedSubInstance instanceof MyDecoratedSubClass : ', myDecoratedSubInstance instanceof MyDecoratedSubClass);
 
 	debugger;
 
-	console.log(myDecoratedSubInstance.field);
-	console.log(myDecoratedSubInstance.sub_field);
+	console.log('myDecoratedInstance.field        : ', myDecoratedSubInstance.field);
+	console.log('myDecoratedSubInstance.sub_field : ', myDecoratedSubInstance.sub_field);
+	console.log('myDecoratedSubInstance.field     : ', myDecoratedSubInstance.field);
 
 	debugger;
 	// @ts-expect-error
