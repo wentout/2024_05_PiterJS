@@ -226,7 +226,6 @@ class Strict extends BaseClass {
 	constructor() {
 		super();
 		this.someProp = 321;
-		decoratedSomeProp = this.someProp;
 	}
 }
 
@@ -261,7 +260,6 @@ class Strict extends BaseClass {
 	constructor() {
 		super();
 		this.someProp = 321;
-		decoratedSomeProp = this.someProp;
 	}
 }
 
