@@ -29,7 +29,7 @@
 <center>
 	<h1 style={{fontSize: '7vh', color: 'teal', lineHeight: '5vh'}}>если очень долго</h1>
 	<h1 style={{fontSize: '8vh', color: 'orange', lineHeight: '5vh'}}>смотреть код</h1>
-	<h1 style={{fontSize: '9vh', color: 'crimson', lineHeight: '5vh'}}>код станет смотреть тебя</h1>
+	<h1 style={{fontSize: '9vh', color: 'crimson', lineHeight: '5vh'}}>код станет смотреть вас</h1>
 </center>
 </Box>
 
